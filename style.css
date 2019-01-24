@@ -1,6 +1,14 @@
 body {
-	background-color: #CCF0FF;
 	text-align: center;
+	font-family: sans-serif;
+	background-color: #CCF0FF;
+	colot: #485899;
+}
+p {
+	color: #485899;
+	font
+	text-align: center;
+	background-color: #8A9499;
 }
 
 table {
@@ -11,4 +19,8 @@ table td, table th {
 	height: 40px;
 	width: 200px;
     border: solid black;
+}
+
+link {
+	font-family: serif;
 }

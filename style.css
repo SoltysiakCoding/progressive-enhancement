@@ -1,26 +1,95 @@
-body {
+body{
+	text-align: center;
+	position: static;
+	margin: 25%;
+	size: 160%;
 	text-align: center;
 	font-family: sans-serif;
 	background-color: #CCF0FF;
-	colot: #485899;
-}
-p {
 	color: #485899;
-	font
-	text-align: center;
-	background-color: #8A9499;
+	height: 90%;
+	background-image: linear-gradient(#1687ED, #14375A);
 }
 
-table {
-	background-color: #D1C3E8;
-    border: 0;
+img {
+	background-image: url(https://www.voyagetips.com/wp-content/uploads/2017/03/grande-muraille-de-chine.jpg);
+ 	background-repeat: no-repeat;
+	background-position: bottom right;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 720px;
+	width: 50%;
+	min-height: 500px;
+	height: 50%;
 }
-table td, table th {
+
+img-01{
+	background-image: url(https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg);
+	background-repeat: no-repeat;
+	background-position: top- right;
+	min-width: 720px;
+	width: 50%;
+	min-height: 500px;
+	height: 50%;
+}
+
+img-02 {
+	background-image: url(http://static2.businessinsider.com/image/52fe8230eab8ea4275063b89/nasa-has-determined-where-the-mysterious-jelly-doughnut-rock-on-mars-came-from.jpg légende:);
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 720px;
+	width: 50%;
+	max-height: 500px;
+	height: 50%;
+}
+
+p {
+	position: static;
+	margin: 5%;
+	size: 160%;
+	background-color: #8A9499;
+	font
+	text-align: center;
+	height: 90%;
+	border: solid 93px;
+	border-width: 80px;
+	border-height: 80px;
+	font-style: italic;
+}
+
+table-02, table-04 {
+	text-align: center;
+	border: 0;
+}
+
+table, table-01, table-03, table-05{
+	text-align: center;
+    border: 0;
+    background-color: grey;
+}
+
+table td, table th{
+	border: 0;
+	text-align: center;
 	height: 40px;
 	width: 200px;
     border: solid black;
+    font-family: monospace;
+    font-size: 15px;
+
 }
 
 link {
 	font-family: serif;
+}
+
+table-pers, table-pers th, table-pers td{
+	border: 0;
+	text-align: center;
+	height: 40px
+	width: 200px;
+	border: solid-black;
+	font-family: monospace;
+	font-size: 15px;
 }

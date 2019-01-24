@@ -1,0 +1,14 @@
+body {
+	background-color: #CCF0FF;
+	text-align: center;
+}
+
+table {
+	background-color: #D1C3E8;
+    border: 0;
+}
+table td, table th {
+	height: 40px;
+	width: 200px;
+    border: solid black;
+}

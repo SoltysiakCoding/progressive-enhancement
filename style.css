@@ -46,7 +46,7 @@ img-02 {
 
 p {
 	position: static;
-	margin: 5%;
+	margin: 0 auto;
 	size: 160%;
 	background-color: #8A9499;
 	font
@@ -55,7 +55,7 @@ p {
 	border: solid 93px;
 	border-width: 80px;
 	border-height: 80px;
-	font-style: italic;
+	float: left;
 }
 
 table-02, table-04 {
@@ -77,19 +77,58 @@ table td, table th{
     border: solid black;
     font-family: monospace;
     font-size: 15px;
-
 }
 
 link {
 	font-family: serif;
 }
 
-table-pers, table-pers th, table-pers td{
+table, table-personnes {
+	text-align: center;
+    border: 0;
+    background-color: grey;
+}
+
+table td, table th, table tr {
 	border: 0;
 	text-align: center;
-	height: 40px
+	height: 40px;
 	width: 200px;
-	border: solid-black;
-	font-family: monospace;
-	font-size: 15px;
+    border: solid black;
+    font-family: monospace;
+    font-size: 15px
+    background-color: grey;
+}
+
+.bien {
+	padding-right: auto;
+	min-width: 20px;
+	width: 20px;
+	min-height: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: static;
+}
+
+.mal {
+	padding-right: auto;
+	min-width: 20px;
+	width: 20px;
+	min-height: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: static;
+}
+
+.chat {
+	padding-right: auto;
+	min-width: 20px;
+	width: 20px;
+	min-height: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: right;
+	position: static;	
 }

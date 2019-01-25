@@ -79,8 +79,10 @@ table td, table th{
     font-size: 15px;
 }
 
-link {
-	font-family: serif;
+a {
+	text-align: center;
+	background-position: center;
+	visibility: hidden;
 }
 
 table, table-personnes {
